@@ -282,14 +282,14 @@ const ruleProviders = {
     "behavior": "ipcidr",
     "format": "text",
     "url": "https://www.cloudflare.com/ips-v4",
-    "path": "./ruleset/Cloudflare_IPv4_Do_Resolve.yaml"    
+    "path": "./ruleset/Cloudflare_IPv4_Do_Resolve.txt"    
   },
   "Cloudflare_IPv6_Do_Resolve": {
     ...ruleProviderCommon,
     "behavior": "ipcidr",
     "format": "text",
     "url": "https://www.cloudflare.com/ips-v6",
-    "path": "./ruleset/Cloudflare_IPv6_Do_Resolve.yaml"
+    "path": "./ruleset/Cloudflare_IPv6_Do_Resolve.txt"
   },
   "Fastly_IP_Do_Resolve": {
     ...ruleProviderCommon,
