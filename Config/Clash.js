@@ -280,12 +280,14 @@ const ruleProviders = {
   "Cloudflare_IPv4_Do_Resolve": {
     ...ruleProviderCommon,
     "behavior": "ipcidr",
+    "format": "text",
     "url": "https://www.cloudflare.com/ips-v4",
     "path": "./ruleset/Cloudflare_IPv4_Do_Resolve.yaml"    
   },
   "Cloudflare_IPv6_Do_Resolve": {
     ...ruleProviderCommon,
     "behavior": "ipcidr",
+    "format": "text",
     "url": "https://www.cloudflare.com/ips-v6",
     "path": "./ruleset/Cloudflare_IPv6_Do_Resolve.yaml"
   },
